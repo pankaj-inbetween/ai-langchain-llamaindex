@@ -4,7 +4,7 @@ from openai import OpenAI # version 1.0+
 
 llm = OpenAI(
     # place your OpenAI key in an environment variable
-    #api_key=os.environ['OPENAI_API_KEY'], # this is the default
+    api_key=os.environ['OPENAI_API_KEY'], # this is the default
     #base_url="http://localhost:1234/v1"  # see chapter 1 video 3
 )
 
